@@ -1,59 +1,61 @@
-> dotenv: modulo js que carga las variables del archivo .env
-> express: framework para construir servicios backend
-> mongoose: biblioteca para trabajar con bases de datos de MongoDB
+- dotenv: modulo js que carga las variables del archivo .env
+- express: framework para construir servicios backend
+- mongoose: biblioteca para trabajar con bases de datos de MongoDB
 
-\*\* endpoints
+## endpoints
 
-> metodo get de paises
+- metodo get de paises
 
-- get pais
+# get pais
 
-  > http://localhost:3000/api/v1/paises/
+- http://localhost:3000/api/v1/paises/
 
-- get pais by Id
+# get pais by Id
 
-  > http://localhost:3000/api/v1/paises/id
+- http://localhost:3000/api/v1/paises/id
 
-- get pais by gdp
+# get pais by gdp
 
-  > http://localhost:3000/api/v1/paises/pib/1500000000000
+- http://localhost:3000/api/v1/paises/pib/1500000000000
 
-- get pais by continent
+# get pais by continent
 
-  > http://localhost:3000/api/v1/paises/continentes/Africa
+- http://localhost:3000/api/v1/paises/continentes/Africa
 
-- post Pais
+# post Pais
 
-  > http://localhost:3000/api/v1/paises/
+- http://localhost:3000/api/v1/paises/
 
-- put Pais
+# put Pais
 
-  > http://localhost:3000/api/v1/paises/id
+- http://localhost:3000/api/v1/paises/id
 
-- delete pais
+# delete pais
 
-  > http://localhost:3000/api/v1/paises/id
+- http://localhost:3000/api/v1/paises/id
 
-- ahora los endpoints de los lenguajes
-- get lenguajes
+# endpoints de los lenguajes
 
-  > http://localhost:3000/api/v1/lenguajes/
+# get lenguajes
 
-- get lenguajes by id
+- http://localhost:3000/api/v1/lenguajes/
 
-  > http://localhost:3000/api/v1/lenguajes/id
+# get lenguajes by id
 
-- post lenguajes
+- http://localhost:3000/api/v1/lenguajes/id
 
-  > http://localhost:3000/api/v1/lenguajes/
+# post lenguajes
 
-- put lenguajes
+- http://localhost:3000/api/v1/lenguajes/
 
-  > http://localhost:3000/api/v1/lenguajes/id
+# put lenguajes
 
-- delete lenguajes
+- http://localhost:3000/api/v1/lenguajes/id
 
-  > http://localhost:3000/api/v1/lenguajes/id
+# delete lenguajes
 
-- delete pais del array
-  > http://localhost:3000/api/v1/lenguajes/id/remove-pais
+- http://localhost:3000/api/v1/lenguajes/id
+
+# delete pais del array
+
+- http://localhost:3000/api/v1/lenguajes/id/remove-pais
